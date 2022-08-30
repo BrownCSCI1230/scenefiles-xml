@@ -1,0 +1,181 @@
+<scenefile>
+	<cameradata>
+		<pos x="0" y="0" z="2"/>
+		<up x="0" y="1" z="0"/>
+		<focus x="0" y="0" z="0"/>
+		<heightangle v="40"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="0.1" v2="1" v3="0"/>
+		<position x="1" y="1" z="1"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="0"/>
+		<position x="0" y="0" z="1"/>
+		<color r="1" g="1" b="1"/>
+		<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="1"/>
+		<position x="1" y="0" z="0"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="0.1" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="2"/>
+		<position x="0" y="1" z="0"/>
+		<color r="1" g="1" b="1"/>
+		<function v1=".1" v2="1" v3="0"/>
+	</lightdata>
+
+	<object type="tree" name="window">
+		<transblock>
+			<scale x=".17" y=".25" z=".01"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="0.2" g="0.1" b="0.4"/>
+			</object>
+		</transblock>
+		<transblock>
+			<scale x="0.02" y="0.24" z=".02"/>
+			<translate x="0.18" y="0" z="0.03"/>
+			<object type="primitive" name="cylinder" >
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+		<transblock>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<translate x="-0.001" y="0" z=".04"/>
+			<scale x="0.015" y="0.165" z="0.015"/>
+			<object type="primitive" name="cylinder" >
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="door">
+		<transblock>
+			<scale x=".18" y=".34" z=".01"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="0.2" g="0.1" b="0.4"/>
+			</object>
+		</transblock>
+		<transblock>
+			<scale x="0.03" y="0.03" z="0.03"/>
+			<translate x="-1.9" y=".2" z="1"/>
+			<object type="primitive" name="sphere" >
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="chimney">
+		<transblock>
+			<scale x="0.18" y="0.22" z="0.22"/>
+			<translate x="0" y="2" z="0.5"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="0.4" g="0.3" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="roof">
+		<transblock>
+			<scale x="0.3" y="0.25" z="0.3"/>
+			<translate x="-1.6" y="1.1" z="0"/>
+			<object type="primitive" name="cone" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<scale x="0.3" y="0.25" z="0.3"/>
+			<translate x="1.58" y="1.1" z="0"/>
+			<object type="primitive" name="cone" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<scale x="0.84" y="0.2" z="0.5"/>
+			<translate x="0" y="1.25" z="0"/>
+			<rotate x="1" y="0" z="0" angle="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="root">
+		<transblock>
+			<scale x="2" y="0.7" z="0.5"/>
+			<translate x="0" y="-1" z="-0.8"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="0" g="1" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<scale x="1.2" y=".75" z="1"/>
+			<translate x="0" y="-0.3" z="-0.5"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+		<transblock>
+			<object type="master" name="roof" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="-0.37" z="0.2"/>
+			<object type="master" name="door" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="-0.48" y="0" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="-0.48" y="-0.36" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="-0.24" y="0" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="-0.24" y="-0.36" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="0.24" y="0" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="0.24" y="-0.36" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="0.48" y="0" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="0.48" y="-0.36" z="0"/>
+			<object type="master" name="window" />
+		</transblock>
+		<transblock>
+			<translate x="-0.3" y="0" z="0"/>
+			<object type="master" name="chimney" />
+		</transblock>
+		<transblock>
+			<translate x="0.3" y="0" z="0"/>
+			<object type="master" name="chimney" />
+		</transblock>
+	</object>
+
+</scenefile>
+

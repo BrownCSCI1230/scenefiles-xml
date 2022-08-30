@@ -1,0 +1,55 @@
+<!-- courtesy of psastras, 2009 -->
+<scenefile>
+    <globaldata>
+        <diffusecoeff v="0.5"/>
+        <specularcoeff v="0.5"/>
+        <ambientcoeff v="0.5"/>
+    </globaldata>
+
+    <lightdata>
+        <id v="0"/>
+        <color r="1" g="1" b="1"/>
+        <position x="3" y="3" z="3"/>
+    </lightdata>
+
+    <cameradata>
+        <pos x="0" y="0" z="5"/>
+        <focus x="0" y="0" z="-1"/>
+        <up x="0" y="1" z="0"/>
+        <heightangle v="45"/>
+    </cameradata>
+
+    <object type="tree" name="root">
+        <transblock>
+            <translate x="0" y="1" z="0" />
+            <scale x="2.0" y="2.0" z="2.0" />
+            <rotate x="0" y="0" z="1" angle="0"/>
+            <object type="primitive" name="mesh" meshfile="mesh/dragon.obj">
+                <diffuse r="0.1" g="0.1" b="0.1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="-1" z="0" />
+            <scale x="2.0" y="2.0" z="2.0" />
+            <rotate x="0" y="0" z="1" angle="180"/>
+            <object type="primitive" name="mesh" meshfile="mesh/dragon.obj">
+                <diffuse r="1" g="1" b="1"/>
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="5" z="-1" />
+            <scale x="10" y="10" z="0.1" />
+            <object type="primitive" name="cube">
+                <diffuse r="1" g="1" b="1" />
+            </object>
+        </transblock>
+        <transblock>
+            <translate x="0" y="-5" z="-1" />
+            <scale x="10" y="10" z="0.1" />
+            <object type="primitive" name="cube">
+                <diffuse r="0.1" g="0.1" b="0.1" />
+            </object>
+        </transblock>
+    </object>
+
+</scenefile>

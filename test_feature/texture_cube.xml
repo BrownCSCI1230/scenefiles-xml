@@ -1,0 +1,92 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="0" y="0" z="6"/>
+		<up x="0" y="1" z="0"/>
+		<focus x="0" y="0" z="0"/>
+		<heightangle v="40"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1" v2="0" v3="0"/>
+		<position x="0" y="0" z="4"/>
+	</lightdata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="-1.2" y="0.6" z="0"/>
+			<rotate x="0" y="1" z="0" angle="0"/>
+			<object type="primitive" name="cube" >
+				<specular r="0" g="0" b="0"/>
+				<texture file="image/topleft.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<ambient r="0.3" g="0" b="0"/>
+				<reflective r="0" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0.6" z="0"/>
+			<rotate x="0" y="1" z="0" angle="90"/>
+			<object type="primitive" name="cube" >
+				<specular r="0" g="0" b="0"/>
+				<texture file="image/topleft.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<ambient r="0.3" g="0" b="0"/>
+				<reflective r="0" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="1.2" y="0.6" z="0"/>
+			<rotate x="0" y="1" z="0" angle="180"/>
+			<object type="primitive" name="cube" >
+				<specular r="0" g="0" b="0"/>
+				<texture file="image/topleft.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<ambient r="0.3" g="0" b="0"/>
+				<reflective r="0" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-1.2" y="-0.6" z="0"/>
+			<rotate x="0" y="1" z="0" angle="270"/>
+			<object type="primitive" name="cube" >
+				<specular r="0" g="0" b="0"/>
+				<texture file="image/topleft.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<ambient r="0.3" g="0" b="0"/>
+				<reflective r="0" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-0.6" z="0"/>
+			<rotate x="1" y="0" z="0" angle="90"/>
+			<object type="primitive" name="cube" >
+				<specular r="0" g="0" b="0"/>
+				<texture file="image/topleft.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<ambient r="0.3" g="0" b="0"/>
+				<reflective r="0" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="1.2" y="-0.6" z="0"/>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<object type="primitive" name="cube" >
+				<specular r="0" g="0" b="0"/>
+				<texture file="image/topleft.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<ambient r="0.3" g="0" b="0"/>
+				<reflective r="0" g="0" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+</scenefile>
+

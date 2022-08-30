@@ -1,0 +1,111 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="5" y="5" z="5"/>
+		<up x="0" y="1" z="0"/>
+		<focus x="0" y="0" z="0"/>
+		<heightangle v="30"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<position x="-2" y="6" z="6"/>
+		<color r="0.3" g="0.0" b="0.0"/>
+		<function v1="1" v2="0" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="1"/>
+		<position x="-1" y="6" z="5"/>
+		<color r="0.0" g="0.3" b="0.0"/>
+		<function v1="1" v2="0" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="2"/>
+		<position x="0" y="6" z="4"/>
+		<color r="0.0" g="0.0" b="0.3"/>
+		<function v1="1" v2="0" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="3"/>
+		<position x="1" y="6" z="3"/>
+		<color r="0.3" g="0.3" b="0.0"/>
+		<function v1="1" v2="0" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="4"/>
+		<position x="2" y="6" z="2"/>
+		<color r="0.3" g="0.0" b="0.3"/>
+		<function v1="1" v2="0" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="5"/>
+		<type v="directional"/>
+		<color r="0.0" g="0.3" b="0.2"/>
+		<direction x="0.5" y="-0.3" z="-1"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="6"/>
+		<type v="directional"/>
+		<color r="0.3" g="0.3" b="0.5"/>
+		<direction x="0.2" y="-0.2" z="-1"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="7"/>
+		<type v="directional"/>
+		<color r="0.3" g="0.4" b="0.3"/>
+		<direction x="0" y="-0.15" z="-1"/>
+	</lightdata>
+
+
+	<lightdata>
+		<id v="8"/>
+		<type v="directional"/>
+		<color r="0.2" g="0.2" b="0.2"/>
+		<direction x="-1" y="-0" z="0.3"/>
+	</lightdata>
+
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="0" y="-0.6" z="0"/>
+			<scale x="8" y="0.1" z="8"/>
+			<object type="primitive" name="cube" >
+				<texture file="image/cheese.png" u="1" v="1"/>
+				<blend v="1.0"/>
+				<diffuse r="0.4" g="0.4" b="0.4"/>
+			</object>
+		</transblock>
+		<transblock>
+			<rotate x="1" y="1" z="1" angle="60"/>
+			<object type="primitive" name="sphere" >
+				<diffuse r="0" g="0" b="0"/>
+				<texture file="image/liqmtl.png" u="1" v="1"/>
+				<blend v="0.3"/>
+				<shininess v="30"/>
+				<specular r="1.0" g="1.0" b="1.0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-1" y="1" z="-0.2"/>
+			<scale x="0.1" y="3" z="4"/>
+			<object type="primitive" name="cube" >
+				<reflective r="1" g="1" b="1"/>
+				<diffuse r="0.8" g="0.6" b="0.6"/>
+			</object>
+		</transblock>
+	</object>
+
+</scenefile>
+

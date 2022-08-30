@@ -1,0 +1,240 @@
+<scenefile>
+	<cameradata>
+		<pos x="0" y="0" z="2"/>
+		<focus x="0" y="0" z="0"/>
+		<up x="0" y="1" z="0"/>
+		<heightangle v="60"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<position x="-2" y="2" z="-2"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="0" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="1"/>
+		<position x="2" y="2" z="-2"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="0" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="2"/>
+		<position x="-2" y="2" z="2"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="0" v2="1" v3="0"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="3"/>
+		<position x="2" y="2" z="2"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="0" v2="1" v3="0"/>
+	</lightdata>
+
+	<object type="tree" name="horiz">
+		<transblock>
+			<scale x="3" y="1" z="1"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="vert">
+		<transblock>
+			<scale x="1" y="5" z="1"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="s">
+		<transblock>
+			<translate x="0" y="2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+		<transblock>
+			<translate x="-1" y="1" z="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<object type="master" name="horiz" />
+		</transblock>
+		<transblock>
+			<translate x="1" y="-1" z="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="c">
+		<transblock>
+			<translate x="0" y="2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+		<transblock>
+			<translate x="-1" y="0" z="0"/>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="-2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="e">
+		<transblock>
+			<translate x="0" y="2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+		<transblock>
+			<translate x="1" y="1" z="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<object type="master" name="horiz" />
+		</transblock>
+		<transblock>
+			<translate x="-1" y="0" z="0"/>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="-2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="n">
+		<transblock>
+			<translate x="0" y="2" z="0"/>
+			<object type="master" name="horiz" />
+		</transblock>
+		<transblock>
+			<translate x="-1" y="0" z="0"/>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="1" y="0" z="0"/>
+			<object type="master" name="vert" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="v">
+		<transblock>
+			<translate x="-1" y=".5" z="0"/>
+			<scale x="1" y=".8" z="1"/>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="1" y=".5" z="0"/>
+			<scale x="1" y=".8" z="1"/>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="-2" z="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="i">
+		<transblock>
+			<object type="master" name="vert" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="w">
+		<transblock>
+			<translate x="-2" y="0" z="0"/>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="-1" y="-2" z="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<object type="master" name="vert" />
+		</transblock>
+		<transblock>
+			<translate x="1" y="-2" z="0"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="0" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="2" y="0" z="0"/>
+			<object type="master" name="vert" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="scene">
+		<transblock>
+			<translate x="-8" y="0" z="0"/>
+			<object type="master" name="s" />
+		</transblock>
+		<transblock>
+			<translate x="-4" y="0" z="0"/>
+			<object type="master" name="c" />
+		</transblock>
+		<transblock>
+			<object type="master" name="e" />
+		</transblock>
+		<transblock>
+			<translate x="4" y="0" z="0"/>
+			<object type="master" name="n" />
+		</transblock>
+		<transblock>
+			<translate x="8" y="0" z="0"/>
+			<object type="master" name="e" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="view">
+		<transblock>
+			<translate x="-6" y="0" z="0"/>
+			<object type="master" name="v" />
+		</transblock>
+		<transblock>
+			<translate x="-3" y="0" z="0"/>
+			<object type="master" name="i" />
+		</transblock>
+		<transblock>
+			<object type="master" name="e" />
+		</transblock>
+		<transblock>
+			<translate x="5" y="0" z="0"/>
+			<object type="master" name="w" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="root">
+		<transblock>
+			<scale x=".1" y=".1" z=".1"/>
+			<translate x="0" y="3" z="0"/>
+			<object type="master" name="scene" />
+		</transblock>
+		<transblock>
+			<scale x=".126667" y=".126667" z=".126667"/>
+			<translate x="0" y="-3" z="0"/>
+			<object type="master" name="view" />
+		</transblock>
+	</object>
+
+</scenefile>
+

@@ -1,0 +1,366 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<cameradata>
+	<pos x="0" y="0" z="5"/>
+	<focus x="0" y="0" z="0"/>
+	<up x="0" y="1" z="0"/>
+	<heightangle v="45"/>
+   	</cameradata>
+	
+	<lightdata>
+		<id v="0"/>
+		<color r="0.7" g="0.5" b="0.05"/>
+		<position x="-1" y="-7" z="1"/>
+	</lightdata>
+	
+	<lightdata>
+		<id v="1"/>
+		<color r="1" g="0" b="0"/>
+		<position x="-5" y="8" z="0"/>
+	</lightdata>
+	
+	<lightdata>
+		<id v="2"/>
+		<color r="0.1" g="0.1" b="0.25"/>
+		<position x="3" y="3" z="0"/>
+	</lightdata>
+	
+	<object type="tree" name="moon">
+		<transblock>
+		<scale x="1" y="1" z="0.5"/>
+		<object type="primitive" name="sphere">
+			<diffuse r="0.9" g="0.8" b="0"/>
+		</object>
+		</transblock>
+	</object>
+	
+	<object type="tree" name="starpoint">
+		<transblock>
+			<scale x="1" y="1" z="0.5"/>
+			<object type="primitive" name="cone">
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+	</object>
+	
+	<object type="tree" name="star">
+		<transblock>
+			<scale x="1" y="1" z="0.8"/>
+			<object type="primitive" name="sphere">
+				<diffuse r="1" g="1" b="1"/>
+			</object>
+		</transblock>
+		<transblock>
+			<rotate x="0" y="0" z="1" angle="0"/>
+			<translate x="0.5" y="0" z="0"/>
+			<object type="master" name="starpoint"/>
+		</transblock>
+		<transblock>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<translate x="0.5" y="0" z="0"/>
+			<object type="master" name="starpoint"/>
+		</transblock>
+		<transblock>
+			<rotate x="0" y="0" z="1" angle="180"/>
+			<translate x="0.5" y="0" z="0"/>
+			<object type="master" name="starpoint"/>
+		</transblock>
+		<transblock>
+			<rotate x="0" y="0" z="1" angle="270"/>
+			<translate x="0.5" y="0" z="0"/>
+			<object type="master" name="starpoint"/>
+		</transblock>
+	</object>
+
+	<object type="tree" name="mytree"> 
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="0.2" y="0.5" z="0.2"/>
+			<object type="primitive" name="cylinder">
+				<diffuse r="0.6" g="0.3" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0.5" z="0"/>
+			<scale x="1" y="1" z="1"/>
+			<object type="primitive" name="cone">
+				<diffuse r="0" g="0.7" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="mytree2"> 
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="0.3" y="0.5" z="0.3"/>
+			<object type="primitive" name="cylinder">
+				<diffuse r="0.6" g="0.3" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0.5" z="0"/>
+			<scale x="1" y="0.7" z="1"/>
+			<object type="primitive" name="cone">
+				<diffuse r="0" g="0.7" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0.9" z="0"/>
+			<scale x="1" y="0.7" z="1"/>
+			<object type="primitive" name="cone">
+				<diffuse r="0" g="0.7" b="0"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="mytree3"> 
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="0.2" y="0.5" z="0.2"/>
+			<object type="primitive" name="cylinder">
+				<diffuse r="0.6" g="0.5" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0.5" z="0"/>
+			<scale x="1" y="0.8" z="1"/>
+			<object type="primitive" name="cone">
+				<diffuse r="0" g="0.9" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0.8" z="0"/>
+			<scale x="1" y="0.8" z="1"/>
+			<object type="primitive" name="cone">
+				<diffuse r="0" g="1" b="0"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="1.1" z="0"/>
+			<scale x="1" y="0.8" z="1"/>
+			<object type="primitive" name="cone">
+				<diffuse r="0" g="1" b="0"/>
+			</object>
+		</transblock>
+	</object>
+	
+	<object type="tree" name="forestlayer">
+		<transblock>
+			<translate x="-2" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="-5" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree3"/> 
+		</transblock>
+		<transblock>
+			<translate x="-4" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="-3" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree2"/> 
+		</transblock>
+		<transblock>
+			<translate x="-2" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree3"/> 
+		</transblock>
+		<transblock>
+			<translate x="-1" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree2"/> 
+		</transblock>
+		<transblock>
+			<translate x="0" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="1" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="2" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree3"/> 
+		</transblock>
+		<transblock>
+			<translate x="3" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree2"/> 
+		</transblock>		
+		<transblock>
+			<translate x="4" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>	
+		<transblock>
+			<translate x="5" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="6" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree3"/> 
+		</transblock>
+	</object>
+	
+	<object type="tree" name="customforestlayer1">
+		<transblock>
+			<translate x="-2" y="-1.3" z="0.001"/>
+			<rotate x="0" y="0" z="1" angle="-90"/>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<object type="master" name="mytree2"/> 
+		</transblock>
+		<transblock>
+			<translate x="-1" y="-1.3" z="0"/>
+			<rotate x="0" y="0" z="1" angle="15"/>
+			<rotate x="1" y="0" z="0" angle="5"/>
+			<scale x="0.9" y="0.7" z="0.9"/>
+			<object type="master" name="mytree2"/> 
+		</transblock>
+		<transblock>
+			<translate x="0" y="-1.3" z="0.001"/>
+			<rotate x="0" y="0" z="1" angle="45"/>
+			<rotate x="0" y="1" z="0" angle="25"/>
+			<rotate x="1" y="0" z="0" angle="45"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="1" y="-1.3" z="0.001"/>
+			<rotate x="0" y="0" z="1" angle="-45"/>
+			<rotate x="1" y="0" z="0" angle="15"/>
+			<scale x="0.8" y="0.7" z="0.7"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="2" y="-1.3" z="0.001"/>
+			<rotate x="0" y="0" z="1" angle="-15"/>
+			<object type="master" name="mytree3"/> 
+		</transblock>
+	</object>
+	
+	<object type="tree" name="customforestlayer2">
+		<transblock>
+			<translate x="-2" y="-1.3" z="0.001"/>
+			<rotate x="0" y="0" z="1" angle="-90"/>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="-1" y="-1.3" z="-1"/>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<rotate x="1" y="0" z="0" angle="-25"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+		<transblock>
+			<translate x="1" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree2"/> 
+		</transblock>
+		<transblock>
+			<translate x="2" y="-1.3" z="0.001"/>
+			<object type="master" name="mytree"/> 
+		</transblock>
+	</object>
+	
+	<object type="tree" name="root">
+		<transblock>
+		<translate x="0" y="0" z="0"/>
+		<scale x="3.5" y="3.5" z="3.5"/>
+			<object type="primitive" name="mesh" filename="mesh/monsterdance.obj">
+			<diffuse r="0.2" g="0.7" b="0.5"/>
+			<ambient r="0.1" g="0.4" b="0.3"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-1.5" z="-3"/>
+			<scale x="10" y="0.01" z="9"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="0.05" g="1.0" b="0.9"/>
+		    </object>
+		</transblock>
+		<transblock>
+			<translate x="-3" y="3" z="-3"/>
+			<object type="master" name="moon"/>
+		</transblock>
+		<transblock>
+			<translate x="-3" y="4" z="-8"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<object type="master" name="star"/>
+			<rotate x="0" y="0" z="1" angle="102"/>
+		</transblock>
+		<transblock>
+			<translate x="-4.9" y="2.7" z="-10"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<object type="master" name="star"/>
+			<rotate x="0" y="0" z="1" angle="85"/>
+		</transblock>
+		<transblock>
+			<translate x="-4.2" y="6.5" z="-12"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<rotate x="0" y="0" z="1" angle="15"/>
+			<object type="master" name="star"/>
+		</transblock>
+		<transblock>
+			<translate x="3" y="4.5" z="-7"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<object type="master" name="star"/>
+			<rotate x="0" y="0" z="1" angle="65"/>
+		</transblock>
+		<transblock>
+			<translate x="4" y="2.2" z="-5"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<rotate x="0" y="0" z="1" angle="35"/>
+			<object type="master" name="star"/>
+		</transblock>
+		<transblock>
+			<translate x="-2.2" y="6.5" z="-12"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<rotate x="0" y="0" z="1" angle="15"/>
+			<object type="master" name="star"/>
+		</transblock>
+		<transblock>
+			<translate x="2" y="6" z="-12"/>
+			<scale x="0.2" y="0.2" z="0.2"/>
+			<rotate x="0" y="0" z="1" angle="15"/>
+			<object type="master" name="star"/>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-8"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x="-0.23" y="0.1" z="-7.6"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x="0.43" y="0" z="-6.11"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x=".77" y="-0.05" z="-5.3"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x="-0.11" y="0" z="-4"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x="-.65" y="0.13" z="-3"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x="-2" y="0" z="-2.5"/>
+			<object type="master" name="forestlayer"/>
+		</transblock>
+		<transblock>
+			<translate x=".92" y="0" z="-0.12"/>
+			<object type="master" name="customforestlayer2"/>
+		</transblock>
+		<transblock>
+			<translate x="-0.23" y="0" z="0.5"/>
+			<object type="master" name="customforestlayer1"/>
+		</transblock>
+	</object>
+
+</scenefile>
+

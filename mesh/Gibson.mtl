@@ -1,0 +1,175 @@
+# Blender MTL File: 'Guiltartexturing.blend'
+# Material Count: 16
+
+newmtl BOdywood
+Ns 96.078431
+Ka 0.050725 0.050725 0.050725
+Kd 0.010562 0.010562 0.010562
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\guitarybodytexture.png
+
+newmtl Material
+Ns 96.078431
+Ka 0.360902 0.360902 0.360902
+Kd 0.640000 0.413438 0.200720
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+
+newmtl Plugmat
+Ns 96.078431
+Ka 0.113492 0.090767 0.068070
+Kd 0.381592 0.381592 0.381592
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd  C:\\Users\\alvin\\Desktop\\Guitarresult\\guitar texture\\handllemark.png
+
+newmtl String
+Ns 96.078431
+Ka 0.345865 0.345865 0.345865
+Kd 0.336019 0.299728 0.250516
+Ks 0.210012 0.210012 0.210012
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\stringbase.png
+
+newmtl String_NONE
+Ns 96.078431
+Ka 0.345865 0.345865 0.345865
+Kd 0.336019 0.299728 0.250516
+Ks 0.210012 0.210012 0.210012
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+
+newmtl Stringedge
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  C:\\Users\\alvin\\Desktop\\Guitarresult\\guitar texture\\Stringedge.png
+
+newmtl Switchmat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\switchtexture.png
+
+newmtl Tunemat
+Ns 96.078431
+Ka 0.003222 0.001523 0.000206
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.183759 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\Tunetexture.png
+map_Bump -bm 1.088496 C:\\Users\\alvin\\Desktop\\Guitarresult\\guitar texture\\Tunetexture.png
+
+newmtl handle
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\handletexture.png
+
+newmtl metal
+Ns 96.078431
+Ka 0.630435 0.630435 0.630435
+Kd 0.106207 0.107173 0.110068
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 5
+map_Kd  C:\\Users\\alvin\\Desktop\\Guitarresult\\guitar texture\\handllemark.png
+
+newmtl metal_Untitled.001
+Ns 96.078431
+Ka 0.630435 0.630435 0.630435
+Kd 0.106207 0.107173 0.110068
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 5
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\switchtexture.png
+
+newmtl metalblur
+Ns 96.078431
+Ka 0.307557 0.147501 0.034307
+Kd 0.640000 0.514686 0.395494
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+
+newmtl pickupbig
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.026504 0.024399 0.026470
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\pickupbig.png
+
+newmtl pickupsmall
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl saddlescrewmat
+Ns 96.078431
+Ka 0.231917 0.231917 0.231917
+Kd 0.430580 0.430580 0.430580
+Ks 0.477545 0.477545 0.477545
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd C:\Users\alvin\Desktop\Guitarresult\guitar texture\saddlescrewtxt.png
+
+newmtl wood
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  C:\\Users\\alvin\\Desktop\\Guitarresult\\guitar texture\\wood.jpg

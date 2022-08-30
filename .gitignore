@@ -1,0 +1,35 @@
+# ------------------------------------
+# CS 1230 gitignore
+# ------------------------------------
+
+# MacOS & clang files
+**/.DS_Store
+.qtc_clangd/
+
+
+# Visual Studio Code files
+.vscode
+
+# Visual Studio files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# Executables
+*.exe
+*.out
+*.app
+
+# test temp files
+temp/
+projects_ray

@@ -1,0 +1,95 @@
+<scenefile>
+	<globaldata>
+		<ambientcoeff v="0.2"/>
+		<diffusecoeff v="0.5"/>
+		<specularcoeff v="0.5"/>
+    </globaldata>
+
+    <cameradata>
+		<pos x="0" y="0" z="5"/>
+		<focus x="0" y="0" z="0"/>
+		<up x="0" y="1" z="0"/>
+		<heightangle v="45"/>
+    </cameradata>
+
+    <lightdata>
+		<id v="0"/>
+		<type v="directional"/>
+		<direction x="-2" y="-4" z="-6"/>
+		<color r="1" g="1" b="1"/>
+    </lightdata>
+
+    <lightdata>
+		<id v="1"/>
+		<type v="point"/>
+		<position x="9" y="-3" z="1"/>
+		<color r=".5" g=".5" b=".5"/>
+    </lightdata>
+
+    <lightdata>
+		<id v="2"/>
+		<type v="point"/>
+		<position x="-9" y="-3" z="1"/>
+		<color r=".5" g=".5" b=".5"/>
+    </lightdata>
+
+    <object type="tree" name="root">
+	<transblock>
+	    <translate x="0" y="0" z="-5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cylinder" >
+		<ambient r="0" g="0.5" b="0"/>
+		<diffuse r="0" g="1" b="0"/>
+		<specular r="1" g="1" b="1"/>
+		<shininess v="30"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="-8"/>
+	    <rotate x="0" y="0" z="1" angle="90"/>
+	    <object type="tree">
+		<transblock>
+		    <translate x="4" y="0" z="0"/>
+		    <scale x="3" y="3" z="3"/>
+		    <object type="primitive" name="sphere" >
+			<ambient r="0" g="0.5" b="0.5"/>
+			<diffuse r="0" g="1" b="1"/>
+			<specular r="1" g="1" b="1"/>
+			<shininess v="30"/>
+		    </object>
+		</transblock>
+		<transblock>
+		    <translate x="-4" y="0" z="0"/>
+		    <scale x="3" y="3" z="3"/>
+		    <object type="primitive" name="cone" >
+			<ambient r="0.5" g="0.5" b="0"/>
+			<diffuse r="1" g="1" b="0"/>
+			<specular r="1" g="1" b="1"/>
+			<shininess v="30"/>
+		    </object>
+		</transblock>
+		<transblock>
+		    <translate x="0" y="4" z="0"/>
+		    <scale x="3" y="3" z="3"/>
+		    <object type="primitive" name="cube" >
+			<ambient r="0.5" g="0" b="0.5"/>
+			<diffuse r="1" g="0" b="1"/>
+			<specular r="1" g="1" b="1"/>
+			<shininess v="30"/>
+		    </object>
+		</transblock>
+		<transblock>
+		    <translate x="0" y="-4" z="0"/>
+		    <scale x="3" y="3" z="3"/>
+		    <object type="primitive" name="cone" >
+			<ambient r="0.5" g="0.5" b="0.5"/>
+			<diffuse r="1" g="1" b="1"/>
+			<specular r="1" g="1" b="1"/>
+			<shininess v="30"/>
+		    </object>
+		</transblock>
+	    </object>
+	</transblock>
+    </object>
+
+</scenefile>

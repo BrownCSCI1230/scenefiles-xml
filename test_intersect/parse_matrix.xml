@@ -1,0 +1,93 @@
+<scenefile>
+    <globaldata>
+	<diffusecoeff v="0.5"/>
+	<specularcoeff v="0.5"/>
+	<ambientcoeff v="0.5"/>
+    </globaldata>
+
+    <cameradata>
+	<pos x="-1.83627" y="1.89243" z="-3.66398"/>
+	<look x="0.495877" y="-0.409496" z="0.76578"/>
+	<up x="-0.150264" y="-0.908996" z="-0.388777"/>
+	<heightangle v="64"/>
+    </cameradata>
+
+    <lightdata>
+	<id v="0"/>
+	<type v="directional"/>
+	<direction x="-10" y="-10" z="-10"/>
+	<color r="0.5" g="0.5" b="0.5"/>
+    </lightdata>
+
+    <lightdata>
+	<id v="1"/>
+	<type v="directional"/>
+	<direction x="2" y="2" z="-2"/>
+	<color r="0.8" g="0.4" b="0.8"/>
+    </lightdata>
+
+    <lightdata>
+	<id v="2"/>
+	<type v="directional"/>
+	<direction x="-4" y="-4" z="-4"/>
+	<color r="0.8" g="0.4" b="0.8"/>
+    </lightdata>
+
+    <lightdata>
+	<id v="3"/>
+	<type v="directional"/>
+	<direction x="6" y="6" z="6"/>
+	<color r="0.8" g="0.4" b="0.8"/>
+    </lightdata>
+
+    <object type="tree" name="root">
+	<transblock>
+	    <matrix>
+		<row0 v1="0.188431" v2="-1.636520" v3="-0.157292" v4="2.570533" />
+		<row1 v1="-1.085494" v2="-0.242748" v3="1.225244" v4="0.596201" />
+		<row2 v1="-1.234764" v2="-0.036338" v3="-1.101128" v4="-0.401192" />
+		<row3 v1="0.000000" v2="0.000000" v3="0.000000" v4="1.000000" />
+	    </matrix>
+	    <object type="primitive" name="sphere" >
+		<diffuse r="1" g="1" b="1"/>
+		<reflective r="0.9" g="0.9" b="0.9"/>
+		<specular r="1" g="1" b="1"/>
+		<shininess v="30"/>
+		<blend v="1"/>
+		<texture file="course/cs123/data/image/board.png" u="4" v="4"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <matrix>
+		<row0 v1="0.307735" v2="0.000000" v3="0.000000" v4="0.091141" />
+		<row1 v1="0.000000" v2="0.307735" v3="0.000000" v4="-2.812540" />
+		<row2 v1="0.000000" v2="0.000000" v3="0.307735" v4="1.058586" />
+		<row3 v1="0.000000" v2="0.000000" v3="0.000000" v4="1.000000" />
+	    </matrix>
+	    <object type="primitive" name="cube" >
+	    </object>
+	</transblock>
+	<transblock>
+	    <matrix>
+		<row0 v1="0.331918" v2="0.000000" v3="0.000000" v4="1.028729" />
+		<row1 v1="0.000000" v2="0.331918" v3="0.000000" v4="-0.505467" />
+		<row2 v1="0.000000" v2="0.000000" v3="0.331918" v4="-0.936443" />
+		<row3 v1="0.000000" v2="0.000000" v3="0.000000" v4="1.000000" />
+	    </matrix>
+	    <object type="primitive" name="sphere" >
+	    </object>
+	</transblock>
+	<transblock>
+	    <matrix>
+		<row0 v1="0.956740" v2="0.000000" v3="0.000000" v4="0.033189" />
+		<row1 v1="0.000000" v2="0.956740" v3="0.000000" v4="0.568857" />
+		<row2 v1="0.000000" v2="0.000000" v3="0.956740" v4="0.282701" />
+		<row3 v1="0.000000" v2="0.000000" v3="0.000000" v4="1.000000" />
+	    </matrix>
+	    <object type="primitive" name="cylinder" >
+	    </object>
+	</transblock>
+    </object>
+
+</scenefile>
+

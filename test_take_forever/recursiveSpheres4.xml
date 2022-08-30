@@ -1,0 +1,180 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.7"/>
+		<specularcoeff v="0.54"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="10" y="4.1" z="16"/>
+		<up x="0" y="1" z="0"/>
+		
+		<heightangle v="49.5"/>
+		<look x="-9" y="-3.2" z="-16"/>
+		<aperture v="0.08"/>
+		<focallength v="15.0"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1.5" v2="0" v3="0"/>
+		<position x="10" y="10" z="10"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="1"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1.5" v2="0" v3="0"/>
+		<type v="directional"/>
+		<direction x="0.25" y="1" z="-1"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="2"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1.5" v2="0" v3="0"/>
+		<type v="directional"/>
+		<direction x="1" y="-1.8" z="-2"/>
+	</lightdata>
+
+	<object type="tree" name="level3">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="0.75" y="0.75" z="0.75"/>
+			<object type="primitive" name="sphere">
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="25"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="level2">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere">
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="25"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-1.125" y="0" z="0"/>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<object type="master" name="level3" />
+		</transblock>
+		<transblock>
+			<translate x="1.125" y="0" z="0"/>
+			<rotate x="0" y="0" z="1" angle="-90"/>
+			<object type="master" name="level3" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="1.125" z="0"/>
+			<rotate x="1" y="0" z="0" angle="0"/>
+			<object type="master" name="level3" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-1.125"/>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<object type="master" name="level3" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="1.125"/>
+			<rotate x="1" y="0" z="0" angle="90"/>
+			<object type="master" name="level3" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="level1">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="3.0" y="3.0" z="3.0"/>
+			<object type="primitive" name="sphere">
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="25"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-2.25" y="0" z="0"/>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<object type="master" name="level2" />
+		</transblock>
+		<transblock>
+			<translate x="2.25" y="0" z="0"/>
+			<rotate x="0" y="0" z="1" angle="-90"/>
+			<object type="master" name="level2" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="2.25" z="0"/>
+			<rotate x="1" y="0" z="0" angle="0"/>
+			<object type="master" name="level2" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-2.25"/>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<object type="master" name="level2" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="2.25"/>
+			<rotate x="1" y="0" z="0" angle="90"/>
+			<object type="master" name="level2" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="6" y="6" z="6"/>
+			<object type="primitive" name="sphere">
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="25"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-4.5" y="0" z="0"/>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<object type="master" name="level1" />
+		</transblock>
+		<transblock>
+			<translate x="4.5" y="0" z="0"/>
+			<rotate x="0" y="0" z="1" angle="-90"/>
+			<object type="master" name="level1" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="4.5" z="0"/>
+			<rotate x="1" y="0" z="0" angle="0"/>
+			<object type="master" name="level1" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="-4.5" z="0"/>
+			<rotate x="0" y="0" z="1" angle="180"/>
+			<object type="master" name="level1" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-4.5"/>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<object type="master" name="level1" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="4.5"/>
+			<rotate x="1" y="0" z="0" angle="90"/>
+			<object type="master" name="level1" />
+		</transblock>
+	</object>
+</scenefile>

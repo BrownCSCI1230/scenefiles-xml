@@ -1,0 +1,319 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.4"/>
+		<specularcoeff v="0.7"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="5" y="4" z="3"/>
+		<focus x="0" y="2" z="-1"/>
+		<up x="0" y="1" z="0"/>
+		<heightangle v="55"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r=".7" g=".2" b=".5"/>
+		<position x="3" y="4" z="3"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="1"/>
+		<color r=".3" g=".6" b=".5"/>
+		<position x="-3" y="5" z="3"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="3"/>
+		<color r=".7" g=".6" b=".3"/>
+		<position x="3" y="5" z="3"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="4"/>
+		<color r=".7" g=".4" b=".4"/>
+		<position x="1" y="2" z="1"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="5"/>
+		<type v="directional"/>
+		<color r=".5" g=".5" b=".5"/>
+		<direction x="-5" y="-4" z="-2.9"/>
+	</lightdata>
+
+	<object type="tree" name="spike">
+		<transblock>
+			<scale x=".5" y="2" z=".5"/>
+			<object type="primitive" name="cone" >
+				<diffuse r=".5" g=".5" b=".5"/>
+				<specular r=".7" g=".7" b=".7"/>
+				<shininess v="15"/>
+				<reflective r=".1" g=".1" b=".1"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="spikerow">
+		<transblock>
+			<translate x="0" y="0" z="-3"/>
+			<object type="master" name="spike" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-2"/>
+			<object type="master" name="spike" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-1"/>
+			<object type="master" name="spike" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<object type="master" name="spike" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="1"/>
+			<object type="master" name="spike" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="2"/>
+			<object type="master" name="spike" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="3"/>
+			<object type="master" name="spike" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="spikegrid">
+		<transblock>
+			<translate x="-3" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+		<transblock>
+			<translate x="-2" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+		<transblock>
+			<translate x="-1" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+		<transblock>
+			<translate x="1" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+		<transblock>
+			<translate x="2" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+		<transblock>
+			<translate x="3" y="0" z="0"/>
+			<object type="master" name="spikerow" />
+		</transblock>
+	</object>
+
+	<object type="tree" name="robot">
+		<transblock>
+			<translate x="0" y="1" z="-.5"/>
+			<scale x="0.5" y="0.5" z="0.5"/>
+			<object type="tree">
+				<transblock>
+					<object type="primitive" name="cone" >
+						<diffuse r="1" g="1" b="0"/>
+						<specular r=".3" g=".3" b="0"/>
+					</object>
+				</transblock>
+				<transblock>
+					<scale x="1" y="0.5" z="1"/>
+					<translate x="0" y="-1.5" z="0"/>
+					<object type="primitive" name="cylinder" >
+						<diffuse r="1" g="1" b="0"/>
+						<specular r=".3" g=".3" b="0"/>
+					</object>
+				</transblock>
+				<transblock>
+					<scale x="0.3" y="0.3" z="0.3"/>
+					<translate x="0" y="-2.3" z="2"/>
+					<object type="primitive" name="cone" >
+						<diffuse r="1" g="0" b="0"/>
+						<specular r=".3" g="0" b="0"/>
+					</object>
+				</transblock>
+				<transblock>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<translate x="1" y="-2.9" z="2"/>
+					<object type="primitive" name="sphere" >
+						<diffuse r="0" g="0" b="0"/>
+						<specular r=".3" g=".3" b=".3"/>
+					</object>
+				</transblock>
+				<transblock>
+					<scale x="0.2" y="0.2" z="0.2"/>
+					<translate x="-1" y="-2.9" z="2"/>
+					<object type="primitive" name="sphere" >
+						<diffuse r="0" g="0" b="0"/>
+						<specular r=".3" g=".3" b=".3"/>
+					</object>
+				</transblock>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-.5"/>
+			<object type="tree">
+				<transblock>
+					<scale x="1" y="1" z="0.5"/>
+					<object type="primitive" name="cube" >
+						<diffuse r=".5" g=".5" b=".5"/>
+						<specular r=".3" g=".3" b=".3"/>
+					</object>
+				</transblock>
+				<transblock>
+					<scale x=".3" y=".3" z=".3"/>
+					<translate x="2" y="1.5" z="0"/>
+					<object type="tree">
+						<transblock>
+							<rotate x="1" y="0" z="0" angle="-45"/>
+							<object type="tree">
+								<transblock>
+									<object type="primitive" name="sphere" >
+										<diffuse r="0.5" g="0.5" b="0.5"/>
+										<specular r=".3" g=".3" b=".3"/>
+									</object>
+								</transblock>
+								<transblock>
+									<scale x="1" y="2" z="1"/>
+									<translate x="0" y="-.5" z="0"/>
+									<object type="primitive" name="cylinder" >
+										<diffuse r=".5" g=".5" b=".5"/>
+										<specular r=".3" g=".3" b=".3"/>
+									</object>
+								</transblock>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+				<transblock>
+					<scale x=".3" y=".3" z=".3"/>
+					<translate x="-2" y="1.5" z="0"/>
+					<object type="tree">
+						<transblock>
+							<rotate x="1" y="0" z="0" angle="45"/>
+							<object type="tree">
+								<transblock>
+									<object type="primitive" name="sphere" >
+										<diffuse r="0.5" g="0.5" b="0.5"/>
+										<specular r=".3" g=".3" b=".3"/>
+									</object>
+								</transblock>
+								<transblock>
+									<scale x="1" y="2" z="1"/>
+									<translate x="0" y="-.5" z="0"/>
+									<object type="primitive" name="cylinder" >
+										<diffuse r=".5" g=".5" b=".5"/>
+										<specular r=".3" g=".3" b=".3"/>
+									</object>
+								</transblock>
+							</object>
+						</transblock>
+					</object>
+				</transblock>
+			</object>
+		</transblock>
+		<transblock>
+			<scale x=".5" y=".5" z=".5"/>
+			<translate x="0" y="-1" z="-1"/>
+			<object type="tree">
+				<transblock>
+					<object type="primitive" name="sphere" >
+						<diffuse r="0" g="1" b="1"/>
+						<specular r="0" g=".3" b=".3"/>
+					</object>
+				</transblock>
+				<transblock>
+					<rotate x="1" y="0" z="0" angle="30"/>
+					<scale x="0.8" y="2.2" z="1"/>
+					<translate x="0.8" y="-0.6" z="0"/>
+					<object type="primitive" name="cylinder" >
+						<diffuse r="0" g="1" b="1"/>
+						<specular r="0" g=".3" b=".3"/>
+					</object>
+				</transblock>
+				<transblock>
+					<rotate x="1" y="0" z="0" angle="-30"/>
+					<scale x="0.8" y="2.2" z="1"/>
+					<translate x="-0.8" y="-0.6" z="0"/>
+					<object type="primitive" name="cylinder" >
+						<diffuse r="0" g="1" b="1"/>
+						<specular r="0" g=".3" b=".3"/>
+					</object>
+				</transblock>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="wall">
+		<transblock>
+			<scale x="8" y=".1" z="8"/>
+			<object type="primitive" name="cube" >
+				<diffuse r=".3" g=".1" b=".5"/>
+				<reflective r=".5" g=".5" b=".5"/>
+			</object>
+		</transblock>
+	</object>
+
+	<object type="tree" name="root">
+		<transblock>
+			<object type="master" name="spikegrid" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="-1" z="0"/>
+			<object type="master" name="wall" />
+		</transblock>
+		<transblock>
+			<rotate x="1" y="0" z="0" angle="90"/>
+			<translate x="0" y="-4" z="-3"/>
+			<object type="master" name="wall" />
+		</transblock>
+		<transblock>
+			<rotate x="0" y="0" z="1" angle="90"/>
+			<translate x="3" y="4" z="0"/>
+			<object type="master" name="wall" />
+		</transblock>
+		<transblock>
+			<translate x="2.8" y=".4" z="0"/>
+			<rotate x="1" y="0" z="0" angle="86"/>
+			<rotate x="0" y="1" z="0" angle="189"/>
+			<object type="master" name="robot" />
+		</transblock>
+		<transblock>
+			<translate x="-.1" y=".5" z="0"/>
+			<rotate x="1" y="0" z="0" angle="-75"/>
+			<object type="master" name="robot" />
+		</transblock>
+		<transblock>
+			<translate x="2" y="4" z="2"/>
+			<rotate x="1" y="0" z="0" angle="45"/>
+			<rotate x="0" y="1" z="0" angle="45"/>
+			<scale x=".3" y=".3" z=".3"/>
+			<object type="master" name="robot" />
+		</transblock>
+		<transblock>
+			<translate x="0" y="2.2" z="-.3"/>
+			<rotate x="1" y="0" z="0" angle="130"/>
+			<scale x=".8" y=".8" z=".8"/>
+			<object type="master" name="robot" />
+		</transblock>
+		<transblock>
+			<translate x="4" y="4" z="1"/>
+			<rotate x="0" y="1" z="1" angle="160"/>
+			<scale x=".6" y=".6" z=".6"/>
+			<object type="master" name="robot" />
+		</transblock>
+	</object>
+
+</scenefile>
+

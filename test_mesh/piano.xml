@@ -1,0 +1,98 @@
+<!-- courtesy of ziang, 2022 -->
+<scenefile>
+    <globaldata>
+        <diffusecoeff v="0.5"/>
+        <specularcoeff v="0.5"/>
+        <ambientcoeff v="0.5"/>
+    </globaldata>
+
+    <cameradata>
+        <pos x="-2.25" y="1.2" z="2.5"/>
+        <focus x="0" y="0" z="0"/>
+        <up x="0" y="1" z="0"/>
+        <heightangle v="45"/>
+    </cameradata>
+
+   <lightdata>
+		<id v="0"/>
+		<type v="point"/>
+		<color r="0.8" g="0.8" b="0.8"/>
+		<position x="-1" y="1" z="1"/>
+		<function x="0.1" y="0.05" z="0.0"/>
+	</lightdata>
+
+
+	<lightdata>
+		<id v="4"/>
+		<type v="spot"/>
+		<color r="0.9" g="0.9" b="0.9"/>
+		<direction x="0" y="-1" z="0"/>
+		<position x="0" y="4" z="0"/>
+		<penumbra v="15"/>
+		<angle v="20"/>
+		<function x="0.8" y="0.05" z="0.0"/>
+	</lightdata>
+
+
+
+    <object type="tree" name="root">    
+		<transblock>
+			<translate x="0" y="0" z="0.5"/>
+			<scale x="1.1" y="1.1" z="1.1" />
+            <object type="primitive" name="mesh" meshfile="mesh/piano.obj">
+                <diffuse r="0.43" g="0.73" b="0.99"/>
+				<specular r="1" g="1" b="1"/>
+				<shininess v="30"/>
+            </object>
+        </transblock>    
+        <transblock>
+			<translate x="-0.2" y="-0.2" z="-2.1"/>
+            <object type="primitive" name="mesh" meshfile="mesh/dragon.obj">
+                <diffuse r="0.79" g="0.82" b="0.99"/>
+                <ambient r="0.1" g="0.1" b="0.1"/>
+                <specular r="0.9" g="0.9" b="0.9"/>
+                <shininess v="15"/>
+            </object>
+        </transblock>
+        <transblock>
+			<translate x="2.2" y="-0.12" z="0"/>
+			<rotate x="0" y="1" z="0" angle="-90" />
+            <object type="primitive" name="mesh" meshfile="mesh/buddha.obj">
+                <diffuse r="0.85" g="0.68" b="0.0"/>
+                <ambient r="0.3" g="0.2" b="0.1"/>
+                <specular r="0.9" g="0.9" b="0.9"/>
+                <shininess v="15"/>
+            </object>
+        </transblock>
+
+		<transblock>
+			<translate x="0" y="-0.6" z="0"/>
+			<scale x="15" y="0.2" z="15"/>
+			<object type="primitive" name="cube" >
+				<reflective r="0.7" g="0.7" b="0.7"/>
+				<diffuse r="0.4" g="0.5" b="0.6"/>
+				<texture file="image/ice2.jpg" u="1" v="1"/>
+				<blend v="0.8"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0.4" y="0.6" z="-3"/>
+			<scale x="4.2" y="2.2" z="1"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="1" g="1" b="1"/>
+				<texture file="image/dragons.jpg" u="1" v="1"/>
+				<blend v="0.8"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="3" y="0.6" z="-0.4"/>
+			<scale x="1" y="2.2" z="4.2"/>
+			<object type="primitive" name="cube" >
+				<diffuse r="0.8" g="0.6" b="0.6"/>
+				<texture file="image/dragons.jpg" u="1" v="1"/>
+				<blend v="0.8"/>
+			</object>
+		</transblock>
+    </object>
+
+</scenefile>
