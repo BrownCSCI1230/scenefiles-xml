@@ -1,0 +1,2286 @@
+<scenefile>
+    <globaldata>
+	<diffusecoeff v="0.7"/>
+	<specularcoeff v="0.54"/>
+	<ambientcoeff v="0.5"/>
+    </globaldata>
+
+    <cameradata>
+	<pos x="10" y="4.1" z="16"/>
+	<up x="0" y="1" z="0"/>
+	<heightangle v="49.5"/>
+	<look x="-9" y="-3.2" z="-16"/>
+    </cameradata>
+
+    <lightdata>
+	<id v="0"/>
+	<color r="1" g="1" b="1"/>
+	<function v1="1.5" v2="0" v3="0"/>
+	<position x="10" y="10" z="10"/>
+    </lightdata>
+
+    <lightdata>
+	<id v="1"/>
+	<color r="1" g="1" b="1"/>
+	<function v1="1.5" v2="0" v3="0"/>
+	<type v="directional"/>
+	<direction x="0.25" y="1" z="-1"/>
+    </lightdata>
+
+    <lightdata>
+	<id v="2"/>
+	<color r="1" g="1" b="1"/>
+	<function v1="1.5" v2="0" v3="0"/>
+	<type v="directional"/>
+	<direction x="1" y="-1.8" z="-2"/>
+    </lightdata>
+
+    <object type="tree" name="root">
+	<transblock>
+	    <translate x="0" y="0" z="0"/>
+	    <scale x="6" y="6" z="6"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.1968"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="0" z="0"/>
+	    <scale x="3" y="3" z="3"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="15.9766"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="6.75" y="0" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.2444"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="7.875" y="0" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="17.7666"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="6.75" y="1.125" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.4099"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="6.75" y="0" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.7733"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="6.75" y="-1.125" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.8391"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="6.75" y="0" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.4326"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="2.25" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.7292"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="5.625" y="2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.2173"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="19.0327"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="2.25" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.5034"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.8218"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="2.25" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.156"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="0" z="2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.1763"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="5.625" y="0" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.7204"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="1.125" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.2493"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="0" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.215"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="0" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.3822"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="-1.125" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.5107"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="-2.25" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.6821"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="5.625" y="-2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.2206"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="-2.25" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.2644"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="-2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="21.4539"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="-3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="17.975"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="-2.25" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.9765"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="0" z="-2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.9912"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="5.625" y="0" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="22.2907"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="1.125" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.3521"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="0" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.9804"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="-1.125" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.2313"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="4.5" y="0" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="22.9015"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="4.5" z="0"/>
+	    <scale x="3" y="3" z="3"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.3978"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="4.5" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="17.9743"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="4.5" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="22.0981"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="5.625" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.5722"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="4.5" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.769"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="16.3013"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="4.5" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.4459"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="6.75" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.0269"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="6.75" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="24.4265"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="7.875" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.4287"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="6.75" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.4833"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="6.75" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.2307"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="6.75" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.1662"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="4.5" z="2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.3638"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="4.5" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.9119"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="5.625" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.8781"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="4.5" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="15.3818"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="4.5" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.0898"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="3.375" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="18.3375"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="4.5" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="15.2601"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="5.625" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.4547"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="4.5" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="23.14"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="4.5" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.3167"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="17.3216"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="4.5" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.1703"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="4.5" z="-2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.1609"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="4.5" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.4699"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="5.625" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="15.4889"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="4.5" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.6027"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="3.375" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="22.0336"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="4.5" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.118"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="4.5"/>
+	    <scale x="3" y="3" z="3"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="22.8243"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="0" z="4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="24.7642"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="0" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="23.9797"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="1.125" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="24.576"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="0" z="5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.2083"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-1.125" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="15.8013"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="0" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="18.9314"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="2.25" z="4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.5151"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="2.25" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.8611"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="3.375" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="15.0034"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="2.25" z="5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.339"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="2.25" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.4136"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="2.25" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="15.1094"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="6.75"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="23.6807"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="0" z="6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.5309"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="1.125" z="6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.0547"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="7.875"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.2985"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="0" z="6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.2694"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-1.125" z="6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.9206"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="0" z="4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.518"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="1.125" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="19.8761"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="0" z="5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="23.4771"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="0" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="15.4372"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-1.125" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.0605"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="0" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="18.6777"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-2.25" z="4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="18.3203"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="-2.25" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="22.5373"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-2.25" z="5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.8447"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="-2.25" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="15.7501"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-3.375" z="4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.7896"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-2.25" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.324"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="0" z="0"/>
+	    <scale x="3" y="3" z="3"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.6363"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="2.25" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="17.6632"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.9006"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="18.7511"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="2.25" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.7127"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-5.625" y="2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.738"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="2.25" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="22.4347"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="0" z="2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.1821"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="0" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="21.4735"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="1.125" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="22.5592"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="0" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="19.8765"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-5.625" y="0" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.5276"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="-1.125" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.7431"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-6.75" y="0" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="22.2465"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-6.75" y="1.125" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.5588"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-6.75" y="0" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.3771"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-7.875" y="0" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="24.1929"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-6.75" y="-1.125" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="24.1008"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-6.75" y="0" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.6242"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="-2.25" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.5122"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="-2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.4791"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="-2.25" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.5268"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-5.625" y="-2.25" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.4253"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="-3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.4091"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="-2.25" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="19.5686"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="0" z="-2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.6925"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="0" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="19.0647"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="1.125" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.1662"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-5.625" y="0" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="15.4978"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="-1.125" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="19.3406"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-4.5" y="0" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="15.9831"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-4.5" z="0"/>
+	    <scale x="3" y="3" z="3"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="18.2517"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-4.5" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="24.7581"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="-4.5" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="21.2695"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.2044"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-4.5" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.7193"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-5.625" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.0318"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-4.5" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.5974"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-4.5" z="2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.955"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="-4.5" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="22.3558"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-3.375" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.9747"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-4.5" z="3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="24.9687"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="-4.5" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.2683"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-5.625" z="2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="21.8473"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-4.5" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="24.5476"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-3.375" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="15.8227"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-4.5" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="21.9057"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="-4.5" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="15.7067"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-5.625" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.4269"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-4.5" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.0462"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-6.75" z="0"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.7579"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="-6.75" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.3149"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-6.75" z="1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="24.0117"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="-6.75" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.2467"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-7.875" z="0"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="15.9188"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-6.75" z="-1.125"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="20.4903"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-4.5" z="-2.25"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="20.6508"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="-4.5" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.933"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-3.375" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.594"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="-4.5" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.6853"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-5.625" z="-2.25"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.9683"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-4.5" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="21.6723"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="-4.5"/>
+	    <scale x="3" y="3" z="3"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.5824"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="0" z="-4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.5379"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="3.375" y="0" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="19.3553"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="1.125" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="16.6406"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="0" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.3497"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="-1.125" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="18.9028"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="2.25" y="0" z="-5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.8679"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="2.25" z="-4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="20.3281"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="2.25" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="22.7521"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="3.375" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="16.6802"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="2.25" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="21.2775"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="2.25" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="15.3222"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="2.25" z="-5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="17.3934"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="0" z="-4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="24.013"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="1.125" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="23.5155"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="0" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="24.2358"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-3.375" y="0" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.0644"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="-1.125" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.1072"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-2.25" y="0" z="-5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="16.3579"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-2.25" z="-4.5"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="22.5328"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="-2.25" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.7034"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-2.25" z="-3.375"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.0691"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="-2.25" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="18.5852"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-3.375" z="-4.5"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.3579"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-2.25" z="-5.625"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="24.2157"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="-6.75"/>
+	    <scale x="1.5" y="1.5" z="1.5"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.7403"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="1.125" y="0" z="-6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="17.6512"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="1.125" z="-6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="23.3646"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="-1.125" y="0" z="-6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="1" b="0.75"/>
+		<diffuse r="0.75" g="1" b="0.75"/>
+		<shininess v="19.07"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="-1.125" z="-6.75"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="0.75" g="0.75" b="1"/>
+		<diffuse r="0.75" g="0.75" b="1"/>
+		<shininess v="17.4063"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+	<transblock>
+	    <translate x="0" y="0" z="-7.875"/>
+	    <scale x="0.75" y="0.75" z="0.75"/>
+	    <object type="primitive" name="cube" >
+		<reflective r="1" g="0.75" b="0.75"/>
+		<diffuse r="1" g="0.75" b="0.75"/>
+		<shininess v="18.063"/>
+		<specular r="1" g="1" b="1"/>
+		<texture file="image/marsTexture.png" u="1" v="1"/>
+		<blend v="0.75"/>
+	    </object>
+	</transblock>
+    </object>
+
+</scenefile>
+
