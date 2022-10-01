@@ -16,15 +16,15 @@ testOutputsPath = os.path.join(basePath, testOutputs)
 testsToRun = { 
     "test_unit",
     "test_intersect",
-    "test_efficiency",
     "test_light",
-    # "test_legacy",
-    # "test_feature",
-    # "test_fun",
-    # "test_refract",
-    # "test_dof",
-    # "test_take_forever",
-    # "test_mesh",
+    "test_efficiency",
+    # "test_fun",          # For Project 4: Illuminate
+    # "test_feature",      # For Project 4: Illuminate
+    # "test_legacy",       # Not really relevant
+    # "test_refract",      # For extra credit (refraction)
+    # "test_dof",          # For extra credit (depth of field)
+    # "test_take_forever", # For extra credit (acceleration datastructure / parallelism)
+    # "test_mesh",         # For extra credit (triangle mesh intersection)
 }
 
 testConfigParams = {
