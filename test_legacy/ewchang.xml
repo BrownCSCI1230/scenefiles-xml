@@ -517,7 +517,6 @@
 	    <object type="primitive" name="cube" >
 		<diffuse r="0.9" g="0.9" b="0.9"/>
 		<ambient r="0.9" g="0.9" b="0.9"/>
-		<specular r="0.8" g="0.8" b="0.8"/>
 	    </object>
 	</transblock>
 	<transblock>

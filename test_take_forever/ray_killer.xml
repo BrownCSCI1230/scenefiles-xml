@@ -1610,7 +1610,6 @@
 			<scale x="2" y="30" z="2"/>
 			<object type="primitive" name="cylinder" >
 				<diffuse r="1" g="1" b="1"/>
-				<specular r=".8" g=".8" b="1"/>
 				<reflective r="1" g="1" b="1"/>
 			</object>
 		</transblock>
@@ -1619,7 +1618,6 @@
 			<scale x="24" y="1" z="24"/>
 			<object type="primitive" name="cylinder" >
 				<diffuse r="1" g="1" b="1"/>
-				<specular r=".8" g=".8" b="1"/>
 				<reflective r="1" g="1" b="1"/>
 			</object>
 		</transblock>

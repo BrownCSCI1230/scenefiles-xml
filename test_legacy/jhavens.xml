@@ -124,7 +124,6 @@
 				<transblock>
 					<object type="primitive" name="cone" >
 						<diffuse r="1" g="1" b="0"/>
-						<specular r=".3" g=".3" b="0"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -132,7 +131,6 @@
 					<translate x="0" y="-1.5" z="0"/>
 					<object type="primitive" name="cylinder" >
 						<diffuse r="1" g="1" b="0"/>
-						<specular r=".3" g=".3" b="0"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -140,7 +138,6 @@
 					<translate x="0" y="-2.3" z="2"/>
 					<object type="primitive" name="cone" >
 						<diffuse r="1" g="0" b="0"/>
-						<specular r=".3" g="0" b="0"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -148,7 +145,6 @@
 					<translate x="1" y="-2.9" z="2"/>
 					<object type="primitive" name="sphere" >
 						<diffuse r="0" g="0" b="0"/>
-						<specular r=".3" g=".3" b=".3"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -156,7 +152,6 @@
 					<translate x="-1" y="-2.9" z="2"/>
 					<object type="primitive" name="sphere" >
 						<diffuse r="0" g="0" b="0"/>
-						<specular r=".3" g=".3" b=".3"/>
 					</object>
 				</transblock>
 			</object>
@@ -168,7 +163,6 @@
 					<scale x="1" y="1" z="0.5"/>
 					<object type="primitive" name="cube" >
 						<diffuse r=".5" g=".5" b=".5"/>
-						<specular r=".3" g=".3" b=".3"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -181,7 +175,6 @@
 								<transblock>
 									<object type="primitive" name="sphere" >
 										<diffuse r="0.5" g="0.5" b="0.5"/>
-										<specular r=".3" g=".3" b=".3"/>
 									</object>
 								</transblock>
 								<transblock>
@@ -189,7 +182,6 @@
 									<translate x="0" y="-.5" z="0"/>
 									<object type="primitive" name="cylinder" >
 										<diffuse r=".5" g=".5" b=".5"/>
-										<specular r=".3" g=".3" b=".3"/>
 									</object>
 								</transblock>
 							</object>
@@ -206,7 +198,6 @@
 								<transblock>
 									<object type="primitive" name="sphere" >
 										<diffuse r="0.5" g="0.5" b="0.5"/>
-										<specular r=".3" g=".3" b=".3"/>
 									</object>
 								</transblock>
 								<transblock>
@@ -214,7 +205,6 @@
 									<translate x="0" y="-.5" z="0"/>
 									<object type="primitive" name="cylinder" >
 										<diffuse r=".5" g=".5" b=".5"/>
-										<specular r=".3" g=".3" b=".3"/>
 									</object>
 								</transblock>
 							</object>
@@ -230,7 +220,6 @@
 				<transblock>
 					<object type="primitive" name="sphere" >
 						<diffuse r="0" g="1" b="1"/>
-						<specular r="0" g=".3" b=".3"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -239,7 +228,6 @@
 					<translate x="0.8" y="-0.6" z="0"/>
 					<object type="primitive" name="cylinder" >
 						<diffuse r="0" g="1" b="1"/>
-						<specular r="0" g=".3" b=".3"/>
 					</object>
 				</transblock>
 				<transblock>
@@ -248,7 +236,6 @@
 					<translate x="-0.8" y="-0.6" z="0"/>
 					<object type="primitive" name="cylinder" >
 						<diffuse r="0" g="1" b="1"/>
-						<specular r="0" g=".3" b=".3"/>
 					</object>
 				</transblock>
 			</object>
