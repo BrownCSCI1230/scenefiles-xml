@@ -224,3 +224,25 @@ if __name__ == "__main__":
     end = time.time()
 
     print("Take {:.6f} seconds to render all scenes".format(end - start))
+
+    # copy images from bench folder
+    assignmentName = "Illuminate"
+    benchImagesFolder = os.path.join(basePath, "bench", assignmentName)
+
+    allBenchImages = [f for f in os.listdir(benchImagesFolder) if f.startswith("test_")]
+    allBenchImages.sort()
+    imagesToCopy = []
+
+    for image in allBenchImages:
+        for testName in testsToRun:
+            if image.startswith(testName):
+                imagesToCopy.append(image)
+                break
+        
+    for image in imagesToCopy:
+        src = os.path.join(benchImagesFolder, image)
+        
+        name, ext = image.split(".")
+        name += "_bench"
+        dst = os.path.join(testOutputsPath, ".".join([name, ext]))
+        shutil.copy(src, dst)
