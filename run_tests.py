@@ -1,7 +1,9 @@
+import argparse
 import os
 import time
 import shutil
 import subprocess
+from multiprocessing import Process
 
 testTemp = "temp"
 testConfigs = "temp/test_configs"
@@ -151,6 +153,7 @@ testConfigParams = {
     },
 }
 
+
 def generateTestFiles(basePath, testName, filename):
     if not testName in testConfigParams.keys():
         raise "cannot find test: " + testName
@@ -182,7 +185,28 @@ def generateTestFiles(basePath, testName, filename):
 
     return
 
+
+def renderTests(raytracer, allTestConfigsPath):
+    start = time.time()
+
+    # run all tests while suppressing stdout output
+    for config in allTestConfigsPath:
+        print(raytracer + " " + config)
+        subprocess.run([raytracer, config], stdout=subprocess.DEVNULL)
+
+    end = time.time()
+    print("Take {:.6f} seconds to render all scenes".format(end - start))
+    return
+
+
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser.add_argument('--timeout', default=-1,
+                        help='The timeout for rendering in seconds. A negative value means no timeout')
+
+    args = parser.parse_args()
+    timeout = int(args.timeout)
+
     # clean existing folders
     if os.path.exists(testTempPath):
         shutil.rmtree(testTempPath)
@@ -214,35 +238,49 @@ if __name__ == "__main__":
     allTestConfigsPath = [os.path.join(testConfigsPath, file) for file in os.listdir(testConfigsPath)]
     allTestConfigsPath.sort()
 
-    start = time.time()
+    p = Process(target=renderTests, args=[raytracer, allTestConfigsPath])
+    p.start()
 
-    # run all tests while suppressing stdout output
-    for config in allTestConfigsPath:
-        print(raytracer + " " + config)
-        subprocess.run([raytracer, config], stdout=subprocess.DEVNULL)
+    if timeout <= 0:
+        p.join()
+    else:
+        p.join(timeout)
 
-    end = time.time()
+    if p.exitcode is None:
+        p.terminate()
+        print("did not finished rendering within the given time:", timeout, "seconds")
+    elif p.exitcode != 0:
+        print("process teminated with a non-zero exitcode")
+    else:
+        print("success")
 
-    print("Take {:.6f} seconds to render all scenes".format(end - start))
+        # add suffix to output image
+        for f in os.listdir(testOutputsPath):
+            name, ext = f.split(".")
+            name += "_gen"
+            newF = ".".join([name, ext])
 
-    # copy images from bench folder
-    assignmentName = "Illuminate"
-    benchImagesFolder = os.path.join(basePath, "bench", assignmentName)
+            os.rename(os.path.join(testOutputsPath, f), os.path.join(testOutputsPath, newF))
 
-    allBenchImages = [f for f in os.listdir(benchImagesFolder) if f.startswith("test_")]
-    allBenchImages.sort()
-    imagesToCopy = []
+        # copy images from bench folder
+        assignmentName = "Illuminate"
+        benchImagesFolder = os.path.join(basePath, "bench", assignmentName)
 
-    for image in allBenchImages:
-        for testName in testsToRun:
-            if image.startswith(testName):
-                imagesToCopy.append(image)
-                break
-        
-    for image in imagesToCopy:
-        src = os.path.join(benchImagesFolder, image)
-        
-        name, ext = image.split(".")
-        name += "_bench"
-        dst = os.path.join(testOutputsPath, ".".join([name, ext]))
-        shutil.copy(src, dst)
+        allBenchImages = [f for f in os.listdir(benchImagesFolder) if f.startswith("test_")]
+        allBenchImages.sort()
+        imagesToCopy = []
+
+        for image in allBenchImages:
+            for testName in testsToRun:
+                if image.startswith(testName):
+                    imagesToCopy.append(image)
+                    break
+            
+        for image in imagesToCopy:
+            src = os.path.join(benchImagesFolder, image)
+            
+            name, ext = image.split(".")
+            name += "_ref"
+            dst = os.path.join(testOutputsPath, ".".join([name, ext]))
+            shutil.copy(src, dst)
+    
