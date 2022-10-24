@@ -175,8 +175,8 @@ def generateTestFiles(basePath, testName, filename):
         f.write("\n")
 
         f.write("[Canvas]\n")
-        f.write("\twidth = 1024\n")
-        f.write("\theight = 768\n")
+        f.write("\twidth = 512\n")
+        f.write("\theight = 384\n")
         f.write("\n")
         
         f.write("[Feature]\n")
