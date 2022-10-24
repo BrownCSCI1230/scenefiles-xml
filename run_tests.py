@@ -263,7 +263,7 @@ if __name__ == "__main__":
             os.rename(os.path.join(testOutputsPath, f), os.path.join(testOutputsPath, newF))
 
         # copy images from bench folder
-        assignmentName = "Illuminate"
+        assignmentName = "Intersect"
         benchImagesFolder = os.path.join(basePath, "bench", assignmentName)
 
         allBenchImages = [f for f in os.listdir(benchImagesFolder) if f.startswith("test_")]
