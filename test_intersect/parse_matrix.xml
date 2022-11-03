@@ -53,8 +53,6 @@
 		<reflective r="0.9" g="0.9" b="0.9"/>
 		<specular r="1" g="1" b="1"/>
 		<shininess v="30"/>
-		<blend v="1"/>
-		<texture file="course/cs123/data/image/board.png" u="4" v="4"/>
 	    </object>
 	</transblock>
 	<transblock>
