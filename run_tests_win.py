@@ -272,7 +272,7 @@ if __name__ == "__main__":
             )
 
         # copy images from bench folder
-        assignmentName = "Illuminate"
+        assignmentName = "grading_illuminate"
         benchImagesFolder = os.path.join(basePath, "bench", assignmentName)
 
         allBenchImages = [f for f in os.listdir(benchImagesFolder) if f.startswith("test_")]
