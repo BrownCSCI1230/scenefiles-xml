@@ -27,6 +27,7 @@ testsToRun = {
     # "test_dof",          # For extra credit (depth of field)
     # "test_take_forever", # For extra credit (acceleration datastructure / parallelism)
     # "test_mesh",         # For extra credit (triangle mesh intersection)
+    # "test_area_light"       # for extra credit (soft shadows and area lights)
 }
 
 testConfigParams = {
@@ -145,6 +146,17 @@ testConfigParams = {
         "reflect":        "false",
         "refract":        "false",
         "texture":        "false",
+        "parallel":       "true",
+        "super-sample":   "true",
+        "acceleration":   "true",
+        "depthoffield":   "false",
+        "texture-filter": "true",
+    },
+    "test_area_light": {
+        "shadows":        "true",
+        "reflect":        "true",
+        "refract":        "true",
+        "texture":        "true",
         "parallel":       "true",
         "super-sample":   "true",
         "acceleration":   "true",
