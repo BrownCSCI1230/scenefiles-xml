@@ -1,0 +1,85 @@
+{
+  
+  "globalData": {
+    "ambientCoeff": 1,
+    "diffuseCoeff": 1,
+    "specularCoeff": 1,
+    "transparentCoeff": 1
+  },
+  "cameraData": {
+    "position": [
+      5,
+      2,
+      5
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "heightAngle": 45,
+    "look": [
+      0,
+      0,
+      0
+    ]
+  },
+  "groups": [
+    {
+      "name": "Lights",
+      "lights": [
+        {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "type": "point",
+          "attenuationCoeff": [
+            0,
+            0,
+            0
+          ],
+          
+        }
+      ],
+      "translate": [
+        1,
+        1,
+        2
+      ],
+      
+    },
+    {
+      "name": "A lonely cube",
+      "primitives": [
+        {
+          "ambient": [
+            1,
+            0,
+            0
+          ],
+          "diffuse": [
+            1,
+            1,
+            1
+          ],
+          "specular": [
+            1,
+            1,
+            1
+          ],
+          "shininess": 10,
+          "type": "cube",
+          
+        }
+      ],
+      "translate": [
+        0,
+        0,
+        0
+      ],
+      
+    }
+  ]
+}

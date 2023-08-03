@@ -1,0 +1,110 @@
+{
+    "globalData": {
+      "ambientCoeff": 0,
+      "diffuseCoeff": 1,
+      "specularCoeff": 0,
+      "transparentCoeff": 1
+    },
+    "cameraData": {
+      "position": [
+        0,
+        2,
+        5
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "heightAngle": 0,
+      "look": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "groups": [
+        {
+            "name": "Lights",
+            "lights": [
+                {
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "type": "directional",
+                "direction": [
+                    0,
+                    -1,
+                    -1
+                ]
+                }
+            ]
+        },
+        {
+            "name": "Regular Sphere",
+            "primitives": [
+                {
+                    "diffuse": [
+                    1,
+                    0,
+                    0
+                    ],
+                    "type": "sphere"
+                }
+            ],
+            "translate": [
+                -2,
+                2,
+                0
+            ]
+        },
+        {
+            "name": "Large Sphere",
+            "primitives": [
+                {
+                    "diffuse": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "type": "sphere"
+                }
+            ],
+            "translate": [
+                0,
+                2,
+                0
+            ],
+            "scale": [
+                1.5,
+                1.5,
+                1.5
+            ]
+        },
+        {
+            "name": "Small Sphere",
+            "primitives": [
+                {
+                    "diffuse": [
+                        0,
+                        0,
+                        1
+                    ],
+                    "type": "sphere"
+                }
+            ],
+            "translate": [
+                2,
+                2,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        }
+    ]
+  }
