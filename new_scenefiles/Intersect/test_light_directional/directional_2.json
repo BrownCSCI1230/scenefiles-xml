@@ -1,0 +1,64 @@
+{
+    "globalData": {
+      "ambientCoeff": 0,
+      "diffuseCoeff": 1,
+      "specularCoeff": 0,
+      "transparentCoeff": 1
+    },
+    "cameraData": {
+      "position": [
+        5,
+        0,
+        5
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "heightAngle": 0,
+      "look": [
+        -1,
+        0,
+        -1
+      ]
+    },
+    "groups": [
+      {
+        "name": "Lights",
+        "lights": [
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "type": "directional",
+            "direction": [
+                -1,
+                0,
+                0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cube",
+        "primitives": [
+          {
+            "diffuse": [
+              1,
+              1,
+              1
+            ],
+            "type": "cube"
+          }
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
