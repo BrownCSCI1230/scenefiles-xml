@@ -1,0 +1,115 @@
+{
+    "name": "root",
+    "globalData": {
+      "ambientCoeff": 0.2,
+      "diffuseCoeff": 0.5,
+      "specularCoeff": 0.5,
+      "transparentCoeff": 1
+    },
+    "cameraData": {
+      "position": [0, 0, 5],
+      "up": [0, 1, 0],
+      "look": [0, 0, 0],
+      "heightAngle": 45
+    },
+  
+    "groups": [
+      {
+        "lights": [
+          {
+            "type": "directional",
+            "direction": [-2, -4, -6],
+            "color": [1, 1, 1]
+          }
+        ]
+      },
+      {
+        "name": "Light Group 1",
+        "translate": [9, -3, 1],
+        "lights": [
+          {
+            "type": "point",
+            "attenuationCoeff": [0, 0, 0],
+            "color": [0.5, 0.5, 0.5]
+          }
+        ]
+      },
+      {
+        "name": "Light Group 2",
+        "translate": [-9, -3, 1],
+        "lights": [
+          {
+            "type": "point",
+            "attenuationCoeff": [0, 0, 0],
+            "color": [0.5, 0.5, 0.5]
+          }
+        ]
+      },
+      {
+        "name": "Cylinder Alone Group",
+        "translate": [0, 0, -5],
+        "scale": [1.5, 1.5, 1.5],
+        "primitives": [
+          {
+            "type": "cylinder",
+            "ambient": [0, 0.5, 0],
+            "diffuse": [0, 1, 0],
+            "specular": [1, 1, 1],
+            "shininess": 30
+          }
+        ]
+      },
+      {
+        "name": "Parent to a few",
+        "translate": [0, 0, -8],
+        "rotate": [0, 0, 3.14],
+        "groups": [
+          {
+            "name": "Sphere Alone Group",
+            "translate": [4, 0, 0],
+            "scale": [3, 3, 3],
+            "primitives": [
+              {
+                "type": "sphere",
+                "diffuse": [0, 1, 1]
+              }
+            ]
+          },
+          {
+            "name": "Cone Alone Group",
+            "translate": [-4, 0, 0],
+            "scale": [3, 3, 3],
+            "primitives": [
+              {
+                "type": "cone",
+                "diffuse": [1, 1, 0]
+              }
+            ]
+          },
+          {
+            "name": "Cube Alone Group",
+            "translate": [0, 4, 0],
+            "scale": [3, 3, 3],
+            "primitives": [
+              {
+                "type": "cube",
+                "diffuse": [1, 0, 1]
+              }
+            ]
+          },
+          {
+            "name": "Another Cone Alone Group",
+            "translate": [0, -4, 0],
+            "scale": [3, 3, 3],
+            "primitives": [
+              {
+                "type": "cone",
+                "diffuse": [1, 1, 1]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
