@@ -1,0 +1,43 @@
+{
+    "globalData": {
+        "ambientCoeff": 1,
+        "diffuseCoeff": 1,
+        "specularCoeff": 1,
+        "transparentCoeff": 1
+    },
+    "cameraData": {
+        "position": [
+            3,
+            0,
+            3
+        ],
+        "up": [
+            0,
+            1,
+            0
+        ],
+        "heightAngle": 0,
+        "look": [
+            1,
+            0,
+            1
+        ]
+    },
+    "groups": [
+        {
+            "name": "Lights"
+        },
+        {
+            "name": "Mirror 1"
+        },
+        {
+            "name": "Mirror 2"
+        },
+        {
+            "name": "Mirror 3"
+        },
+        {
+            "name": "Mirror 4"
+        }
+    ]
+}
