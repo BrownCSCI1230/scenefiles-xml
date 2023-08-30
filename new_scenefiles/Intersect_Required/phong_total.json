@@ -62,7 +62,7 @@
     {
       "name": "Parent to a few",
       "translate": [0, 0, -8],
-      "rotate": [0, 0, 3.14],
+      "rotate": [0, 0, 1.57],
       "groups": [
         {
           "name": "Sphere Alone Group",
