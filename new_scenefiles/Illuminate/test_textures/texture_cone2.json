@@ -82,8 +82,7 @@
               "textureFile": "image/topleft.png",
               "textureU": 1,
               "textureV": 1,
-              "type": "cone",
-              
+              "type": "cone"
             }
           ],
           "translate": [
@@ -95,8 +94,7 @@
             0,
             0,
             0
-          ],
-          
+          ]
         },
         {
           "primitives": [
@@ -120,8 +118,7 @@
               "textureFile": "image/topleft.png",
               "textureU": 1,
               "textureV": 1,
-              "type": "cone",
-              
+              "type": "cone"
             }
           ],
           "translate": [
@@ -133,8 +130,7 @@
             0,
             1.57,
             0
-          ],
-          
+          ]
         },
         {
           "primitives": [
@@ -158,8 +154,7 @@
               "textureFile": "image/topleft.png",
               "textureU": 1,
               "textureV": 1,
-              "type": "cone",
-              
+              "type": "cone"
             }
           ],
           "translate": [
@@ -171,8 +166,7 @@
             0,
             3.14,
             0
-          ],
-          
+          ]
         },
         {
           "primitives": [
@@ -196,8 +190,7 @@
               "textureFile": "image/topleft.png",
               "textureU": 1,
               "textureV": 1,
-              "type": "cone",
-              
+              "type": "cone"
             }
           ],
           "translate": [
@@ -209,8 +202,7 @@
             0,
             4.71,
             0
-          ],
-          
+          ]
         },
         {
           "primitives": [
@@ -234,8 +226,7 @@
               "textureFile": "image/topleft.png",
               "textureU": 1,
               "textureV": 1,
-              "type": "cone",
-              
+              "type": "cone"
             }
           ],
           "translate": [
@@ -247,8 +238,7 @@
             1.57,
             0,
             0
-          ],
-          
+          ]
         },
         {
           "primitives": [
@@ -272,8 +262,7 @@
               "textureFile": "image/topleft.png",
               "textureU": 1,
               "textureV": 1,
-              "type": "cone",
-              
+              "type": "cone"
             }
           ],
           "translate": [
@@ -285,11 +274,10 @@
             4.71238898,
             0,
             0
-          ],
+          ]
           
         }
-      ],
-      
+      ]
     }
   ]
 }
