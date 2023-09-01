@@ -7,21 +7,9 @@
     "transparentCoeff": 1
   },
   "cameraData": {
-    "position": [
-      -4.0,
-      3.0,
-      3.0
-    ],
-    "up": [
-      0.0,
-      1.0,
-      0.0
-    ],
-    "look": [
-      4.0,
-      3.0,
-      3.0
-    ],
+    "position": [-4.0, 3.0, 3.0],
+    "up": [0.0, 1.0, 0.0],
+    "look": [4.0, 3.0, 3.0],
     "heightAngle": 30.0
   },
   "groups": [
@@ -29,95 +17,43 @@
       "lights": [
         {
           "type": "point",
-          "color": [
-            0.5,
-            0.5,
-            0.5
-          ],
-          "attenuationCoeff": [
-            1,
-            0,
-            0
-          ]
+          "color": [0.5, 0.5, 0.5],
+          "attenuationCoeff": [1, 0, 0]
         }
       ],
-      "translate": [
-        10,
-        10,
-        10
-      ]
+      "translate": [10, 10, 10]
     },
     {
       "lights": [
         {
           "type": "point",
-          "color": [
-            0.8,
-            0.4,
-            0.8
-          ],
-          "attenuationCoeff": [
-            1,
-            0,
-            0
-          ]
+          "color": [0.8, 0.4, 0.8],
+          "attenuationCoeff": [1, 0, 0]
         }
       ],
-      "translate": [
-        -2,
-        -2,
-        2
-      ]
+      "translate": [-2, -2, 2]
     },
     {
       "lights": [
         {
           "type": "point",
-          "color": [
-            0.8,
-            0.4,
-            0.8
-          ],
-          "attenuationCoeff": [
-            1,
-            0,
-            0
-          ]
+          "color": [0.8, 0.4, 0.8],
+          "attenuationCoeff": [1, 0, 0]
         }
       ],
-      "translate": [
-        4,
-        4,
-        4
-      ]
+      "translate": [4, 4, 4]
     },
     {
       "groups": [
         {
-          "translate": [
-            0.0,
-            0.0,
-            0.0
-          ],
+          "translate": [0.0, 0.0, 0.0],
           "primitives": [
             {
               "type": "cylinder",
-              "diffuse": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "specular": [
-                1.0,
-                1.0,
-                1.0
-              ],
+              "diffuse": [1.0, 1.0, 1.0],
+              "specular": [1.0, 1.0, 1.0],
               "shininess": 30.0,
-              "reflective": [
-                1.0,
-                1.0,
-                1.0
-              ],
+              "reflective": [1.0, 1.0, 1.0],
               "blend": 1.0,
               "textureFile": "image/board.png",
               "textureU": 2.0,

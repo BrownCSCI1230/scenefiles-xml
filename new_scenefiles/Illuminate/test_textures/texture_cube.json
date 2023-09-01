@@ -7,21 +7,9 @@
     "transparentCoeff": 1
   },
   "cameraData": {
-    "position": [
-      0.0,
-      0.0,
-      6.0
-    ],
-    "up": [
-      0.0,
-      1.0,
-      0.0
-    ],
-    "look": [
-      0,
-      0,
-      0
-    ],
+    "position": [0.0, 0.0, 6.0],
+    "up": [0.0, 1.0, 0.0],
+    "focus": [0, 0, 0],
     "heightAngle": 40.0
   },
   "groups": [
@@ -29,56 +17,23 @@
       "lights": [
         {
           "type": "point",
-          "color": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "attenuationCoeff": [
-            1,
-            0,
-            0
-          ]
+          "color": [1.0, 1.0, 1.0],
+          "attenuationCoeff": [1, 0, 0]
         }
       ],
-      "translate": [
-        0,
-        0,
-        4
-      ]
+      "translate": [0, 0, 4]
     },
     {
       "groups": [
         {
-          "translate": [
-            -1.2,
-            0.6,
-            0.0
-          ],
-          "rotate": [
-            0.0,
-            1.0,
-            0.0,
-            0.0
-          ],
+          "translate": [-1.2, 0.6, 0.0],
+          "rotate": [0.0, 1.0, 0.0, 0.0],
           "primitives": [
             {
               "type": "cube",
-              "ambient": [
-                0.3,
-                0.0,
-                0.0
-              ],
-              "specular": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "reflective": [
-                0.0,
-                0.0,
-                0.0
-              ],
+              "ambient": [0.3, 0.0, 0.0],
+              "specular": [0.0, 0.0, 0.0],
+              "reflective": [0.0, 0.0, 0.0],
               "blend": 1.0,
               "textureFile": "image/topleft.png",
               "textureU": 1.0,
@@ -87,35 +42,14 @@
           ]
         },
         {
-          "translate": [
-            0.0,
-            0.6,
-            0.0
-          ],
-          "rotate": [
-            0.0,
-            1.0,
-            0.0,
-            90.0
-          ],
+          "translate": [0.0, 0.6, 0.0],
+          "rotate": [0.0, 1.0, 0.0, 90.0],
           "primitives": [
             {
               "type": "cube",
-              "ambient": [
-                0.3,
-                0.0,
-                0.0
-              ],
-              "specular": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "reflective": [
-                0.0,
-                0.0,
-                0.0
-              ],
+              "ambient": [0.3, 0.0, 0.0],
+              "specular": [0.0, 0.0, 0.0],
+              "reflective": [0.0, 0.0, 0.0],
               "blend": 1.0,
               "textureFile": "image/topleft.png",
               "textureU": 1.0,
@@ -124,35 +58,14 @@
           ]
         },
         {
-          "translate": [
-            1.2,
-            0.6,
-            0.0
-          ],
-          "rotate": [
-            0.0,
-            1.0,
-            0.0,
-            180.0
-          ],
+          "translate": [1.2, 0.6, 0.0],
+          "rotate": [0.0, 1.0, 0.0, 180.0],
           "primitives": [
             {
               "type": "cube",
-              "ambient": [
-                0.3,
-                0.0,
-                0.0
-              ],
-              "specular": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "reflective": [
-                0.0,
-                0.0,
-                0.0
-              ],
+              "ambient": [0.3, 0.0, 0.0],
+              "specular": [0.0, 0.0, 0.0],
+              "reflective": [0.0, 0.0, 0.0],
               "blend": 1.0,
               "textureFile": "image/topleft.png",
               "textureU": 1.0,
@@ -161,35 +74,14 @@
           ]
         },
         {
-          "translate": [
-            -1.2,
-            -0.6,
-            0.0
-          ],
-          "rotate": [
-            0.0,
-            1.0,
-            0.0,
-            270.0
-          ],
+          "translate": [-1.2, -0.6, 0.0],
+          "rotate": [0.0, 1.0, 0.0, 270.0],
           "primitives": [
             {
               "type": "cube",
-              "ambient": [
-                0.3,
-                0.0,
-                0.0
-              ],
-              "specular": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "reflective": [
-                0.0,
-                0.0,
-                0.0
-              ],
+              "ambient": [0.3, 0.0, 0.0],
+              "specular": [0.0, 0.0, 0.0],
+              "reflective": [0.0, 0.0, 0.0],
               "blend": 1.0,
               "textureFile": "image/topleft.png",
               "textureU": 1.0,
@@ -198,35 +90,14 @@
           ]
         },
         {
-          "translate": [
-            0.0,
-            -0.6,
-            0.0
-          ],
-          "rotate": [
-            1.0,
-            0.0,
-            0.0,
-            90.0
-          ],
+          "translate": [0.0, -0.6, 0.0],
+          "rotate": [1.0, 0.0, 0.0, 90.0],
           "primitives": [
             {
               "type": "cube",
-              "ambient": [
-                0.3,
-                0.0,
-                0.0
-              ],
-              "specular": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "reflective": [
-                0.0,
-                0.0,
-                0.0
-              ],
+              "ambient": [0.3, 0.0, 0.0],
+              "specular": [0.0, 0.0, 0.0],
+              "reflective": [0.0, 0.0, 0.0],
               "blend": 1.0,
               "textureFile": "image/topleft.png",
               "textureU": 1.0,
@@ -235,35 +106,14 @@
           ]
         },
         {
-          "translate": [
-            1.2,
-            -0.6,
-            0.0
-          ],
-          "rotate": [
-            1.0,
-            0.0,
-            0.0,
-            -90.0
-          ],
+          "translate": [1.2, -0.6, 0.0],
+          "rotate": [1.0, 0.0, 0.0, -90.0],
           "primitives": [
             {
               "type": "cube",
-              "ambient": [
-                0.3,
-                0.0,
-                0.0
-              ],
-              "specular": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "reflective": [
-                0.0,
-                0.0,
-                0.0
-              ],
+              "ambient": [0.3, 0.0, 0.0],
+              "specular": [0.0, 0.0, 0.0],
+              "reflective": [0.0, 0.0, 0.0],
               "blend": 1.0,
               "textureFile": "image/topleft.png",
               "textureU": 1.0,
