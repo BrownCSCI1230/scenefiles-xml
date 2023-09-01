@@ -63,7 +63,7 @@
           ],
           "primitives": [
             {
-              "type": "cone",
+              "type": "cylinder",
               "ambient": [
                 0.3,
                 0.0,
@@ -100,7 +100,7 @@
           ],
           "primitives": [
             {
-              "type": "cone",
+              "type": "cylinder",
               "ambient": [
                 0.3,
                 0.0,
@@ -137,7 +137,7 @@
           ],
           "primitives": [
             {
-              "type": "cone",
+              "type": "cylinder",
               "ambient": [
                 0.3,
                 0.0,
@@ -174,7 +174,7 @@
           ],
           "primitives": [
             {
-              "type": "cone",
+              "type": "cylinder",
               "ambient": [
                 0.3,
                 0.0,
@@ -211,7 +211,7 @@
           ],
           "primitives": [
             {
-              "type": "cone",
+              "type": "cylinder",
               "ambient": [
                 0.3,
                 0.0,
@@ -248,7 +248,7 @@
           ],
           "primitives": [
             {
-              "type": "cone",
+              "type": "cylinder",
               "ambient": [
                 0.3,
                 0.0,
