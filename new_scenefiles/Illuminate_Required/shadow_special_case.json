@@ -1,0 +1,89 @@
+{
+  "name": "root",
+  "globalData": {
+    "ambientCoeff": 0.5,
+    "diffuseCoeff": 0.5,
+    "specularCoeff": 0.5,
+    "transparentCoeff": 1
+  },
+  "cameraData": {
+    "position": [
+      0.0,
+      0.0,
+      6.0
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "look": [
+      0,
+      0,
+      0
+    ],
+    "heightAngle": 40.0
+  },
+  "groups": [
+    {
+      "translate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lights": [
+        {
+          "type": "point",
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "attenuationCoeff": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "translate": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "primitives": [
+            {
+              "type": "cube",
+              "diffuse": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "translate": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "primitives": [
+            {
+              "type": "cube",
+              "diffuse": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
