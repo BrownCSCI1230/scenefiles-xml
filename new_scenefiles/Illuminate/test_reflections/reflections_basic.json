@@ -6,10 +6,10 @@
     "transparentCoeff": 1
   },
   "cameraData": {
-    "position": [3, 0, 3],
+    "position": [5, 1, 5],
     "up": [0, 1, 0],
-    "heightAngle": 0,
-    "look": [1, 0, 1]
+    "heightAngle": 30,
+    "look": [-1, 0, -1]
   },
   "groups": [
     {
@@ -51,12 +51,25 @@
     },
     {
       "name": "Sphere",
-      "translate": [3, 0, -3],
+      "translate": [1.5, 0, -1.5],
       "primitives": [
         {
           "type": "sphere",
           "ambient": [1, 0, 0],
-          "shininess": 30
+          "diffuse": [0, 0, 0],
+          "shininess": 30,
+          "specular": [1, 1, 1]
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "translate": [0, -0.75, 0],
+      "scale": [10, 0.5, 10],
+      "primitives": [
+        {
+          "type": "cube",
+          "ambient": [0, 0.2, 0.13]
         }
       ]
     }
