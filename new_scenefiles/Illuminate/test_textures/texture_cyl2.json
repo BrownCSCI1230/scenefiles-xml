@@ -9,7 +9,7 @@
   "cameraData": {
     "position": [-4.0, 3.0, 3.0],
     "up": [0.0, 1.0, 0.0],
-    "look": [4.0, 3.0, 3.0],
+    "look": [4.0, -3.0, -3.0],
     "heightAngle": 30.0
   },
   "groups": [
