@@ -23,11 +23,7 @@
           "reflective": [0.75, 1, 0.75],
           "diffuse": [0.75, 1, 0.75],
           "shininess": 25,
-          "specular": [1, 1, 1],
-          "textureFile": "image/marsTexture.png",
-          "textureU": 1,
-          "textureV": 1,
-          "blend": 0.75
+          "specular": [1, 1, 1]
         }
       ]
     }
@@ -55,7 +51,7 @@
         {
           "type": "point",
           "color": [1, 1, 1],
-          "attenuationCoeff": [0, 0, 0]
+          "attenuationCoeff": [1.5, 0, 0]
         }
       ]
     },
@@ -69,11 +65,7 @@
           "reflective": [1, 0.75, 0.75],
           "diffuse": [1, 0.75, 0.75],
           "shininess": 25,
-          "specular": [1, 1, 1],
-          "textureFile": "image/marsTexture.png",
-          "textureU": 1,
-          "textureV": 1,
-          "blend": 0.75
+          "specular": [1, 1, 1]
         }
       ]
     },
@@ -97,7 +89,7 @@
     },
     {
       "translate": [0, 4.5, 0],
-      "rotate": [0, 0, 0],
+      "rotate": [1, 0, 0, 0],
       "groups": [
         {
           "name": "level 1"
